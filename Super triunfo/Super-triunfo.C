@@ -4,8 +4,8 @@
 typedef struct {
     char carta;
     char estado;
-    char *cidade;
-    char *codigo;
+    char cidade [50];
+    char codigo [10};
     int populacao;
     int pontoturisco;
     float area;
